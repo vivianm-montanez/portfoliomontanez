@@ -2,6 +2,7 @@
     "conventionalCommits.scopes": [
         "components",
         "js",
-        "styles"
+        "styles",
+        "vscode"
     ]
 }
