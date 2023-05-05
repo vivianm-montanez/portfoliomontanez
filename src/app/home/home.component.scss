@@ -1,0 +1,125 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+
+}
+
+.body{
+  height: 100vh;
+  display: grid;
+  font-family: 'Lora', serif;
+  grid-template-areas:
+  'main sidebar';
+  grid-template-columns: 4fr 2.5fr;
+  background:linear
+}
+
+ main, aside{
+  background-color:#212025;
+  color: #191400;
+}
+
+  .text{
+   padding-top: 15rem;
+  }
+
+  .main{
+    grid-area: content;
+  }
+
+  .welcome{
+    font-weight:600;
+    font-size: 1.5rem;
+    line-height: 1.3;
+    margin-left: 7rem;
+    color:#ffffff;
+  }
+
+  .name{
+  font-family: 'Lora', serif;
+  font-weight:500;
+  font-size: 4rem;
+  margin-left: 7rem;
+  color:#676CDB;
+  }
+
+  .message{
+    font-weight:600;
+    font-size: 1.25rem;
+    margin-left: 7rem;
+    margin-bottom:20px;
+    padding-right: 20rem;
+    color:#ffffff;
+  }
+
+  .aside{
+    grid-area:sidebar;
+  }
+
+  .portrait{
+    width: 300px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+
+  }
+
+  button {
+    text-decoration: none;
+    position: relative;
+    margin-left: 7rem;
+    margin-top: 3rem;
+    border: none;
+    font-size:larger;
+    font-family: inherit;
+    font-weight:400;
+    color: #fff;
+    width: 8em;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+    background: linear-gradient(90deg,#676CDB,#4954BF,#263CA3,#002788);
+    background-size: 300%;
+    border-radius: 30px;
+    z-index: 1;
+  }
+
+  button:hover {
+    animation: ani 8s linear infinite;
+    border: none;
+  }
+
+  @keyframes ani {
+    0% {
+      background-position: 0%;
+    }
+
+    100% {
+      background-position: 400%;
+    }
+  }
+
+  button:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg,#676CDB,#4954BF,#263CA3,#002788);
+    background-size: 400%;
+    border-radius: 35px;
+    transition: 1s;
+  }
+
+  button:hover::before {
+    filter: blur(20px);
+  }
+
+  button:active {
+    background: linear-gradient(32deg,#676CDB,#4954BF,#263CA3,#002788);
+  }
+
+
+
