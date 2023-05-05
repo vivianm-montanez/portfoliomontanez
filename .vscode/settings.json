@@ -1,0 +1,7 @@
+{
+    "conventionalCommits.scopes": [
+        "components",
+        "js",
+        "styles"
+    ]
+}
