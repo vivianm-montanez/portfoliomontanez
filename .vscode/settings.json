@@ -3,6 +3,7 @@
         "components",
         "js",
         "styles",
-        "vscode"
+        "vscode",
+        "root"
     ]
 }
