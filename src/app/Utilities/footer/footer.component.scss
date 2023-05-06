@@ -61,3 +61,17 @@ body {
   font-size: 13px;
   color: white
 }
+
+@media (max-width: 850px) {
+  footer {
+    grid-template-columns: 1fr;
+    width:393px;
+    height: 100%;
+    right: 0px;
+    top: 64px;
+    bottom:0;
+    background-color: #7661c9;
+    display:block;
+    height:full;
+  }
+}

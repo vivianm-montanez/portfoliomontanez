@@ -122,10 +122,10 @@
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 850px) {
   .body {
     grid-template-columns: 1fr;
-    width:393px;
+    width:100%;
 
 
     .home-item:nth-child(1){
