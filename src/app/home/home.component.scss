@@ -20,7 +20,7 @@
   margin-left: 2rem;
   color:#ffffff;
   margin-left: 7rem;
-  margin-top: 5rem;
+  margin-top: 8rem;
 }
 
 .name{
@@ -37,7 +37,6 @@
     font-size: 1.25rem;
     margin-left: 7rem;
     margin-bottom:20px;
-    padding-right: 20rem;
     color:#ffffff;
   }
 
@@ -50,16 +49,16 @@
   button {
     text-decoration: none;
     position: relative;
-    margin-left: 7rem;
-    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
     border: none;
-    font-size:larger;
+    font-size:large;
     font-family: inherit;
     font-weight:400;
     color: #fff;
-    width: 8em;
-    height: 3em;
-    line-height: 3em;
+    width: 7em;
+    height: 2em;
+    line-height: 2em;
     text-align: center;
     background: linear-gradient(90deg,#676CDB,#4954BF,#263CA3,#002788);
     background-size: 300%;
@@ -157,7 +156,12 @@
       justify-content: center;
       align-items: center;
       padding:0px;
-      margin:0px;
+      margin-left:50px;
+
+    }
+    .message{
+      margin-left: 1.5rem;
+      align-self: center;
     }
   }
 

@@ -99,15 +99,7 @@ p {
 .card:hover p {
   color: #f0f0f0;
 }
-@media screen and (min-width: 768px) {
-  section {
-    padding: 0 2em;
-  }
-  .column {
-    flex: 0 50%;
-    max-width: 50%;
-  }
-}
+
 @media screen and (min-width: 992px) {
   section {
     padding: 1em 3em;

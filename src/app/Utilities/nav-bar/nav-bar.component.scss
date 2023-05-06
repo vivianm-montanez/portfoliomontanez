@@ -42,6 +42,10 @@ body {
   justify-content: center;
   align-items: center;
   grid-gap: 1rem;
+  display:inline-block;
+  position:fixed;
+  right: 0px;
+  top:20px;
 }
 
 .nav-link {
@@ -65,4 +69,17 @@ body {
 
 .contact-link:hover {
   color: #676CDB;
+}
+
+@media (max-width: px) {
+  nav {
+    grid-template-columns: 1fr;
+    width:393px;
+    height: 100%;
+    right: 0px;
+    top: 64px;
+    background-color: #7661c9;
+    display:block;
+    height:full;
+  }
 }
