@@ -19,7 +19,7 @@ import { ContactsComponent } from './contacts/contacts.component';
     HomeComponent,
     AboutComponent,
     ServicesComponent,
-    ContactsComponent
+    ContactsComponent,
   ],
   imports: [
     BrowserModule,
