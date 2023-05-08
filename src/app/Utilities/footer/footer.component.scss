@@ -7,13 +7,14 @@
 }
 body {
   font-weight: 400;
+  max-width: 100%;
 }
 
 .footer {
   height: 100px;
   padding: 10px 0;
   background-color: #676CDB;
-  max-width: full;
+  max-width: 100%;
 }
 .footer .social {
   text-align: center;
@@ -44,6 +45,7 @@ body {
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 0;
+  max-width: max-content;
 }
 .footer ul a {
   color: inherit;
@@ -53,6 +55,7 @@ body {
 .footer ul li {
   display: inline-block;
   padding: 0 15px;
+  width:100%;
 }
 .footer ul a:hover {
   opacity: 1;
@@ -64,7 +67,7 @@ body {
   color: white
 }
 
-@media (max-width: 100%) {
+@media (max-width: 859px) {
   .footer {
     grid-template-columns: 1fr;
     height: 100%;
