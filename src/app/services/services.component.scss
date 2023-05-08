@@ -21,7 +21,7 @@
 .title{
   font-size: 8rem;
   margin-left: 6rem;
-  margin-top: 3rem;
+  margin-top: 6rem;
   opacity:0.2;
   color:#676CDB;
   z-index:0;
@@ -31,7 +31,7 @@
   position: absolute;
   font-size: 6rem;
   margin-left: 5rem;
-  margin-top: 0.5rem;
+  margin-top: 0px;
   color:#676ddbb8;
   z-index: 1;
 }
@@ -45,7 +45,7 @@ section {
 .row {
   display: flex;
   flex-wrap: wrap;
-
+  margin-top: 20px;
 }
 .column {
   width: 100%;
